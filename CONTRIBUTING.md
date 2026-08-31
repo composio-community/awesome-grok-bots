@@ -1,35 +1,65 @@
 # Contributing
 
-This is a curated collection of useful Grok Bot templates, examples, and resources. Sources may come from GitHub, creator websites, documentation, blogs, demos, X, or other public primary sources.
+This repository accepts two kinds of contribution: original knowledge-work blueprints and verified links to public Grok Bot templates.
 
-## Inclusion requirements
+## Add a blueprint
 
-A main-list entry must have all of the following:
+Add one ordinary Markdown setup brief under `templates/`:
 
-- A live public `https://x.ai/bot/...` URL.
-- A public primary source from the creator or their team that explains the Bot. This may be a GitHub repository, website, documentation page, blog post, demo, or social post.
-- One specific, durable workflow with a concrete output or loop.
-- Accurate creator attribution, including collaborators or team ownership.
-- No copied profile, skill, memory, routine, private data, or secret.
+```text
+templates/specific-bot-name.md
+```
 
-Interesting public demos without an install link can be proposed for the demos section. Generic job-title assistants, personality-only prompts, spam, impersonation, deceptive engagement, credential theft, covert surveillance, autonomous financial activity, and unsupervised production changes are out of scope.
+This is a manual copy-paste prompt, not an official Grok import format. State that clearly at the top of the file.
 
-## Add a template
+The blueprint must define:
 
-1. Add the template to the appropriate category in `README.md`.
-2. Use your own one-sentence summary; do not copy the creator's prompt.
-3. Include the live template link, creator attribution, and a primary source.
-4. In the pull request, state when you opened the links and what you verified.
+- one durable job and its anti-jobs;
+- required inputs and minimum connections;
+- a repeatable operating loop;
+- concrete, reviewable deliverables;
+- source and evidence rules;
+- quality checks and escalation conditions;
+- explicit approval boundaries;
+- a supervised first-run test.
 
-## Attribution rules
+Keep it narrow enough that a reviewer can tell whether it succeeded. “Chief of staff,” “research assistant,” and other generic titles need a specific owned outcome.
 
-- Name the people or organizations credited by the public evidence.
-- Explain team ownership, collaborators, or amplification when a famous account did not personally author the template.
-- Link to creator-controlled primary sources, not a roundup when a primary source exists.
-- If authorship is ambiguous, say so. Do not upgrade a repost into authorship.
+Blueprint text must be original or compatibly licensed. Do not copy a public Bot's profile, skills, memory, routines, private data, or secrets.
 
-## Link review
+## Add a public template
 
-Before submitting, open the preview and check that it resolves to the named Bot. Public previews can include the Bot's identity, description, skills, and routines, so do not reproduce that configuration in the repository without the creator's permission and a compatible license.
+A main-list public template must have:
 
-Discovery source does not determine category. Categorize the Bot by what it does.
+- a live `https://x.ai/bot/...` preview;
+- a creator-controlled primary source explaining the Bot;
+- one concrete knowledge-work job;
+- accurate creator and team attribution;
+- a summary written in your own words.
+
+In the pull request, state when you opened both links and what you verified. A demo without an install link may be proposed as research evidence, but not presented as an installable template.
+
+## Out of scope
+
+- novelty, lifestyle, shopping, or personality-only Bots;
+- vague general assistants without an owned output;
+- spam, deceptive engagement, impersonation, credential theft, or covert surveillance;
+- autonomous trading, unsupervised financial actions, or invented financial claims;
+- unsupervised production, access, publishing, deletion, signing, or spending;
+- copied third-party instructions without permission and compatible licensing.
+
+## Attribution
+
+- Credit every person or organization supported by the public evidence.
+- Explain team ownership when a prominent account amplified work created by someone else.
+- Prefer creator-controlled sources over roundups.
+- If authorship is ambiguous, say so.
+
+## Review bar
+
+Reviewers should be able to answer four questions quickly:
+
+1. What decision or artifact does this Bot own?
+2. What evidence does it use and cite?
+3. How is quality checked?
+4. What can it never do without a human?
