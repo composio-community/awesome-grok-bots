@@ -138,6 +138,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the structure, evidence, and attribut
 - [Approvals, security, and privacy](https://docs.x.ai/grok-bot/approvals-security-and-privacy)
 - [RongleCat/awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) — broad field-case and resource index
 - [majiayu000/awesome-grok-bot](https://github.com/majiayu000/awesome-grok-bot) — live public share index and machine-readable catalog
+- [Grok Bots Market](https://grokbotsmarket.com/) — independent directory of public Grok Bot templates by task and connected app, with run screenshots or recorded demos on many pages
 
 ## Disclaimer
 
